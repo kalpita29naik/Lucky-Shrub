@@ -1,0 +1,321 @@
+
+      body {
+        background-color: #d6efd8;
+        font-family: "papyrus";
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .logo {
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+
+      }
+
+      nav ul {
+        list-style: none;
+        text-align: center;
+        border-top: 2px solid #b74240;
+        border-bottom: 2px solid #b74240;
+        padding-bottom: 20px;
+      }
+
+      nav li {
+        display: inline-block;
+        padding-top: 1rem;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #b74240;
+        font-size: 1.5rem;
+        padding: 3rem;
+        font-weight: bold;
+
+      }
+
+      nav a:hover {
+       text-shadow: 1px 1px 1px ;
+      }
+
+      .ad {
+        position: relative;
+        width: 100%;
+      }
+
+      .ad img {
+        width: 100%;
+        height: auto;
+        opacity: 0.8;
+      }
+
+      .ad h1 {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        font-size: 6rem;
+      }
+
+      .ad h2 {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        font-size: 3rem;
+      }
+
+      main h2 {
+        text-align: center;
+        font-size: 3rem;
+      }
+
+      .product {
+        border: 1px solid black;
+        border-radius: 2rem;
+        padding: 20px;
+        margin: 15px;
+        flex: 1;
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+
+      .product img {
+        width: 100%;
+        height: 20rem;
+      }
+
+      .product p {
+        font-size: 1.5rem;
+        margin-top: auto;
+      }
+
+      .product h3 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+
+      .product:hover {
+        box-shadow: 0 0 10px 0 black;
+      }
+
+      .product button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        padding: 10px;
+        font-size: 1.3rem;
+        background-color: #b74240;
+        color: white;
+        border-radius: 1rem;
+        border: none;
+        cursor: pointer;
+        font-family: "papyrus";
+      }
+
+      .product button:hover {
+        box-shadow: 0 0 5px 0 black;
+      }
+
+      .items {
+        display: flex;
+      }
+
+      .plant {
+        flex: 1;
+      }
+
+      .tools {
+        flex: 1;
+      }
+
+      .fertilizer {
+        flex: 1;
+      }
+
+      footer {
+        display: flex;
+        border-top: 2px solid #b74240;
+        margin-bottom: auto;
+      }
+
+      footer div {
+        flex: 1;
+      }
+
+      footer img {
+        width: 45px;
+        display: block;
+        padding-top: 2rem;
+        margin-bottom: auto;
+      }
+
+      footer p {
+        text-align: center;
+        padding-top: 1rem;
+        font-size: 1.5rem;
+        margin-bottom: auto;
+        color: #b74240;
+      }
+
+      @media only screen and (max-width: 1440px) {
+        body {
+          margin: 3rem 2%;
+        }
+
+        h1 {
+          font-size: 2.5rem;
+        }
+
+        h2 {
+          font-size: 1.8rem;
+        }
+
+        nav a {
+          font-size: 1.2rem;
+          padding: 2rem;
+        }
+
+        .ad h1 {
+          font-size: 6rem;
+        }
+
+        .ad h2 {
+          font-size: 3rem;
+        }
+
+        .product img {
+          height: 15rem;
+        }
+
+        .items {
+          flex-direction: column;
+        }
+      }
+   @media only screen and (max-width: 1024px) {
+  body {
+    margin: 3rem 2%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  nav a {
+    font-size: 1.2rem;
+    padding: 2rem;
+  }
+
+  .ad h1 {
+    font-size: 3rem;
+  }
+
+  .ad h2 {
+    font-size: 1.5rem;
+  }
+
+  .product img {
+    height: 15rem;
+  }
+
+  .items {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 3rem 2%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  nav a {
+    font-size: 1.2rem;
+    padding: 2rem;
+  }
+
+  .ad h1 {
+    font-size: 7vw;
+  }
+
+  .ad h2 {
+    font-size: 4vw;
+  }
+
+  .product img {
+    height: 15rem;
+  }
+
+  .items {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .ad h1 {
+    font-size: 5vw;
+  }
+
+  .ad h2 {
+    font-size: 5vw;
+  }
+
+  nav a {
+    font-size: 1rem;
+    padding: 1.5rem;
+  }
+
+  .product img {
+    height: 12rem;
+  }
+
+  footer img {
+    width: 30px;
+  }
+
+  footer p {
+    font-size: 1.2rem;
+  }
+}
