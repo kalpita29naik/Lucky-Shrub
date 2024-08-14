@@ -1,0 +1,62 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Simplified grid template columns */
+  grid-template-rows: repeat(3, 1fr); /* Simplified grid template rows */
+  grid-gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns content to the left side of the card */
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover h3 {
+  color: #b74240;
+}
+
+.productimage {
+  width: 100%; /* Ensures the image container takes full width */
+  height: 300px; /* Set a fixed height for the images */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Hides any overflow */
+  margin-bottom: 1rem;
+}
+
+.productimage img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+}
+
+.like {
+  align-self: flex-end; /* Aligns the like button to the right */
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: left; /* Aligns the text to the left */
+}
+
+.card p {
+  font-size: 1.3rem;
+  margin-top: auto;
+  margin-right: 0; /* Ensures the price stays aligned with the product name */
+}
+
+
