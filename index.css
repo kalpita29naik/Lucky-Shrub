@@ -1,5 +1,3 @@
-
-
 .ad {
   position: relative;
   width: 100%;
@@ -67,7 +65,7 @@ main h2 {
   box-shadow: 0 0 10px 0 black;
 }
 
-.product button {
+.product a {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -80,9 +78,13 @@ main h2 {
   border: none;
   cursor: pointer;
   font-family: "papyrus";
-}
+  text-decoration: none;
+  height: 2rem;
+  width: 6rem;
+  text-align: center;
 
-.product button:hover {
+}
+.product a:hover {
   box-shadow: 0 0 5px 0 black;
 }
 

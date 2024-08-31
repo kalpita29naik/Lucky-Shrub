@@ -1,0 +1,35 @@
+
+main{
+
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.section img {
+  width: 50%;
+  height: auto;
+  margin: 1rem;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: auto;
+}
+
+.section p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  margin-top: auto;
+}
+
+.section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.data{
+  width: 100%;
+  height: auto;
+}
